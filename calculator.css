@@ -1,0 +1,65 @@
+body{
+    height:100vh;
+    justify-items: center;
+    align-content: center;
+}
+
+.container{
+   
+    height:500px;
+    width:260px;
+    background-color: black;
+    border-radius:50px;
+    
+   
+
+    #input{
+        height:130px;
+        width:230px;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-radius: 5px;
+        border : none;
+        font-size:35px;
+        color:rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+      
+    }
+
+
+    #numbers{
+        display:grid;
+        grid-template-columns: 3px 3px 3px 3px;
+        grid-template-rows: 60px 60px 60px 60px;
+        column-gap: 0px;
+        row-gap: 0px;
+        margin-left: -50px;
+        margin-right: 10px;
+        margin-top: 5px;
+        justify-content: space-evenly;
+        color: rgba(255, 255, 255, 0.983);
+    }
+
+    #box1, #box2 , #box3, #box4, #box5 ,#box6 , #box7, #box8 , #box9 , #box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19 ,#box20{
+        height:55px;
+        width:55px;
+        margin-top:10px;
+        margin-left: 5px;
+        font-size: 20px;
+        align-content: center;
+        text-align: center;
+        background-color: rgb(55, 55, 55);
+       color: aliceblue;
+        border-radius: 30px;
+        border: none;
+    }
+
+    #box1, #box2, #box3{
+        background-color: rgb(120, 120, 120);
+    }
+    #box4, #box8, #box12, #box16, #box20{
+        background-color: rgb(243, 168, 7);
+    }
+
+
+}
